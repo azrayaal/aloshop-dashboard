@@ -1,5 +1,4 @@
 import { NavLink } from 'react-router-dom'
-import { Logo } from '@/components/atoms/Logo'
 import { UserBadge } from '@/components/layouts/UserBadge'
 import { navItems } from '@/config/navigation'
 import { useAuth } from '@/context/AuthContext'
@@ -11,9 +10,12 @@ export function Sidebar() {
 
   return (
     <aside className="flex h-full w-64 shrink-0 flex-col border-r border-slate-100 bg-surface">
-      <div className="px-6 py-6">
+      {/* <div className="px-6 py-6">
         <Logo />
-      </div>
+      </div> */}
+      <div className="px-6 py-6">
+        <img src="/iconaloshop.png" alt="Aloshop" className="shrink-0 object-contain" />
+        </div>
 
       <nav className="flex-1 space-y-1 overflow-y-auto px-3">
         {navItems.map(({ id, label, path, Icon }) => (
