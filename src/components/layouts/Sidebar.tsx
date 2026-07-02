@@ -13,7 +13,7 @@ export function Sidebar() {
       {/* <div className="px-6 py-6">
         <Logo />
       </div> */}
-      <div className="px-6 py-6">
+      <div className="px-6">
         <img src="/iconaloshop.png" alt="Aloshop" className="shrink-0 object-contain" />
         </div>
 
