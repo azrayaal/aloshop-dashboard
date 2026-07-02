@@ -247,3 +247,81 @@ export const VaptIcon = (p: IconProps) => (
     <path d="M3 12h4l2 5 4-14 2 9h6" />
   </svg>
 )
+
+export const PlusIcon = (p: IconProps) => (
+  <svg {...base(p)}>
+    <path d="M12 5v14M5 12h14" />
+  </svg>
+)
+
+export const FilterIcon = (p: IconProps) => (
+  <svg {...base(p)}>
+    <path d="M3 5h18l-7 8v6l-4-2v-4L3 5Z" />
+  </svg>
+)
+
+export const MoreIcon = (p: IconProps) => (
+  <svg {...base(p)}>
+    <circle cx="5" cy="12" r="1.4" />
+    <circle cx="12" cy="12" r="1.4" />
+    <circle cx="19" cy="12" r="1.4" />
+  </svg>
+)
+
+export const WarningIcon = (p: IconProps) => (
+  <svg {...base(p)}>
+    <path d="M12 3 2 20h20L12 3Z" />
+    <path d="M12 10v4M12 17h.01" />
+  </svg>
+)
+
+export const BoxIcon = (p: IconProps) => (
+  <svg {...base(p)}>
+    <path d="M3 7 12 3l9 4v10l-9 4-9-4V7Z" />
+    <path d="m3 7 9 4 9-4M12 11v10" />
+  </svg>
+)
+
+export const UsersPlusIcon = (p: IconProps) => (
+  <svg {...base(p)}>
+    <circle cx="9" cy="8" r="3.2" />
+    <path d="M3 20c0-3.3 2.7-5.5 6-5.5s6 2.2 6 5.5" />
+    <path d="M18 8v6M21 11h-6" />
+  </svg>
+)
+
+export const MapPinIcon = (p: IconProps) => (
+  <svg {...base(p)}>
+    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+    <circle cx="12" cy="10" r="3" />
+  </svg>
+)
+
+export const StarIcon = (p: IconProps) => (
+  <svg {...base({ fill: 'currentColor', stroke: 'none', ...p })}>
+    <path d="M12 2.5l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.8 6.2 20.9l1.1-6.5L2.6 9.3l6.5-.9L12 2.5Z" />
+  </svg>
+)
+
+export const TargetIcon = (p: IconProps) => (
+  <svg {...base(p)}>
+    <circle cx="12" cy="12" r="9" />
+    <circle cx="12" cy="12" r="5" />
+    <circle cx="12" cy="12" r="1.4" fill="currentColor" />
+  </svg>
+)
+
+export const TruckFastIcon = (p: IconProps) => (
+  <svg {...base(p)}>
+    <path d="M9 6h6v9H9zM15 9h3l3 3v3h-6" />
+    <circle cx="11.5" cy="17" r="1.6" />
+    <circle cx="18.5" cy="17" r="1.6" />
+    <path d="M2 9h4M1 13h4" />
+  </svg>
+)
+
+export const CheckIcon = (p: IconProps) => (
+  <svg {...base(p)}>
+    <path d="M20 6 9 17l-5-5" />
+  </svg>
+)
